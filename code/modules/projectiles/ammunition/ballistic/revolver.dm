@@ -17,6 +17,19 @@
 	name = ".357 incendiary bullet casing"
 	desc = "A .357 incendiary bullet casing."
 	projectile_type = /obj/item/projectile/bullet/a357/incendiary
+	
+/obj/item/ammo_casing/a357/c38
+	name = ".38 special bullet casing"
+	desc = "A .38 special bullet casing."
+	projectile_type = /obj/item/projectile/bullet/c38
+	custom_materials = list(
+		/datum/material/iron = MATS_PISTOL_SMALL_CASING + MATS_PISTOL_SMALL_BULLET,
+		/datum/material/blackpowder = MATS_PISTOL_SMALL_POWDER)
+		
+//obj/item/ammo_casing/a357/c38/incendiary
+	name = ".38 special incendiary bullet casing"
+	desc = "A .38 special incendiary bullet casing. For when you want to be slightly less useless."
+	projectile_type = /obj/item/projectile/bullet/c38/incendiary
 
 /obj/item/ammo_casing/a357/improvised
 	name = "shoddy .357 bullet casing"
@@ -25,38 +38,6 @@
 	custom_materials = list(
 		/datum/material/iron = MATS_PISTOL_HEAVY_CASING + MATS_PISTOL_HEAVY_BULLET,
 		/datum/material/blackpowder = MATS_PISTOL_HEAVY_POWDER * MATS_AMMO_POWDER_HANDLOAD_MULT)
-
-
-// .38 special
-/obj/item/ammo_casing/c38
-	name = ".38 special bullet casing"
-	desc = "A .38 special bullet casing."
-	caliber = CALIBER_38
-	projectile_type = /obj/item/projectile/bullet/c38
-	custom_materials = list(
-		/datum/material/iron = MATS_PISTOL_SMALL_CASING + MATS_PISTOL_SMALL_BULLET,
-		/datum/material/blackpowder = MATS_PISTOL_SMALL_POWDER)
-
-/obj/item/ammo_casing/c38/improvised
-	name = "shoddy .38 special bullet casing"
-	desc = "A homemade .38 bullet casing."
-	projectile_type = /obj/item/projectile/bullet/c38/improvised
-	custom_materials = list(
-		/datum/material/iron = MATS_PISTOL_SMALL_CASING + MATS_PISTOL_SMALL_BULLET,
-		/datum/material/blackpowder = MATS_PISTOL_SMALL_POWDER * MATS_AMMO_POWDER_HANDLOAD_MULT)
-
-/obj/item/ammo_casing/c38/rubber
-	name = ".38 special rubber bullet casing"
-	desc = "A .38 specia rubber bullet casing. For when you want to be extra useless."
-	projectile_type = /obj/item/projectile/bullet/c38/rubber
-	custom_materials = list(
-		/datum/material/iron = MATS_PISTOL_SMALL_CASING + MATS_PISTOL_SMALL_BULLET,
-		/datum/material/blackpowder = MATS_PISTOL_SMALL_POWDER * MATS_AMMO_POWDER_HANDLOAD_MULT)
-
-/obj/item/ammo_casing/c38/incendiary
-	name = ".38 special incendiary bullet casing"
-	desc = "A .38 special incendiary bullet casing. For when you want to be slightly less useless."
-	projectile_type = /obj/item/projectile/bullet/c38/incendiary
 
 // .44 magnum
 /obj/item/ammo_casing/m44
