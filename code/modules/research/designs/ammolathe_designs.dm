@@ -181,13 +181,6 @@
 	build_path = /obj/item/ammo_box/c38box
 	category = list("initial", "Simple Ammo")
 
-/datum/design/ammolathe/c38rubber
-	name = ".38 rubber ammo box"
-	id = "useless"
-	materials = list(/datum/material/iron = 6000, /datum/material/blackpowder = 1000)
-	build_path = /obj/item/ammo_box/c38box/rubber
-	category = list("initial", "Simple Ammo")
-
 /datum/design/ammolathe/beanbag
 	name = "beanbag shotgun box"
 	id = "beanbag"
