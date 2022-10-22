@@ -26,7 +26,7 @@
 		/datum/material/iron = MATS_PISTOL_SMALL_CASING + MATS_PISTOL_SMALL_BULLET,
 		/datum/material/blackpowder = MATS_PISTOL_SMALL_POWDER)
 		
-//obj/item/ammo_casing/a357/c38/incendiary
+/obj/item/ammo_casing/a357/c38/incendiary
 	name = ".38 special incendiary bullet casing"
 	desc = "A .38 special incendiary bullet casing. For when you want to be slightly less useless."
 	projectile_type = /obj/item/projectile/bullet/c38/incendiary
