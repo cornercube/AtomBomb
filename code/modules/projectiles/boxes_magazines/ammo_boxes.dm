@@ -139,29 +139,17 @@
 	name = "ammo box (.38)"
 	icon_state = "38box"
 	multiple_sprites = 2
-	caliber = list(CALIBER_38)
-	ammo_type = /obj/item/ammo_casing/c38
+	caliber = list(CALIBER_357)
+	ammo_type = /obj/item/ammo_casing/a357/c38
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_SMALL
 	custom_materials = list(/datum/material/iron = MATS_PISTOL_SMALL_BOX)
 
-/obj/item/ammo_box/c38box/rubber
-	name = "ammo box (.38 rubber)"
-	icon_state = "38box"
-	multiple_sprites = 2
-	ammo_type = /obj/item/ammo_casing/c38/rubber
 
 /obj/item/ammo_box/c38box/incendiary
 	name = "ammo box (.38 incendiary-tipped)"
 	desc = "A box of .38 incendiary-tipped rounds. This'll burn."
-	ammo_type = /obj/item/ammo_casing/c38/incendiary
-
-/obj/item/ammo_box/c38box/improvised
-	name = "bag with reloaded .38 bullets"
-	desc = "The casings are worn, the gunpowder some homebrew mix of dubious quality. At least it goes bang."
-	icon_state = "improvshotbag"
-	multiple_sprites = 3
-	ammo_type = /obj/item/ammo_casing/c38/improvised
+	ammo_type = /obj/item/ammo_casing/a357/c38/incendiary
 
 
 //10mm
