@@ -761,19 +761,6 @@
 	build_path = /obj/item/ammo_box/c45/rubber
 	category = list("initial", "Handloaded Ammo")
 */
-/datum/design/ammolathe/improvised/c38
-	name = ".38 bag"
-	id = "handloader_c38"
-	materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
-	build_path = /obj/item/ammo_box/c38box/improvised
-	category = list("initial", "Handloaded Ammo")
-
-/datum/design/ammolathe/improvised/c38rubber
-	name = ".38 rubber ammo box"
-	id = "handloader_useless" // (X)Doubt
-	materials = list(/datum/material/iron = 8000, /datum/material/blackpowder = 1000)
-	build_path = /obj/item/ammo_box/c38box/rubber
-	category = list("initial", "Handloaded Ammo")
 
 /datum/design/ammolathe/improvised/a357
 	name = ".357 Magnum bag"
